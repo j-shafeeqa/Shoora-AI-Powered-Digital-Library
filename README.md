@@ -63,10 +63,10 @@ Shoora is an AI-powered legal intelligence platform built to unify the UAE’s f
 
 ## 💼 Business Impact
 
-- 🌍 Aligned with UAE 2031 vision for judicial modernization  
-- 📈 Targets a $40B+ global legal tech market  
-- 🎓 Pilot-ready for Judicial Training Institutes like UAE JTI  
-- 🏛️ Modular SaaS model for government, university & law firm integration
+- 🌍 Aligned with UAE 2031 vision for judicial modernization.  
+- 📈 Targets a $40B+ global legal tech market.
+- 🎓 Pilot-ready for Judicial Training Institutes like UAE JTI.
+- 🏛️ Modular SaaS model for government, university & law firm integration.
 
 ## 🗓 Roadmap
 
