@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+
+    --primary: 41 70% 47%; /* Updated for darker gold */
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 5.9% 10%;
+
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+
+    --accent: 41 70% 47%; /* Updated for darker gold */
+    --accent-foreground: 240 5.9% 10%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 41 70% 47%; /* Updated for darker gold */
+
+    --radius: 0.5rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+  }
+}
+
+@layer components {
+  .shoora-btn-primary {
+    @apply bg-[#cc9c24] hover:bg-[#cc9c24]/90 text-white font-semibold py-2 px-6 rounded-md transition-all duration-300 flex items-center gap-2;
+  }
+
+  .shoora-btn-secondary {
+    @apply border-2 border-[#cc9c24] text-[#cc9c24] hover:bg-[#cc9c24]/10 font-semibold py-2 px-6 rounded-md transition-all duration-300 flex items-center gap-2;
+  }
+
+  .shoora-card {
+    @apply bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-all duration-300;
+  }
+
+  .shoora-feature-icon {
+    @apply text-[#cc9c24] h-8 w-8;
+  }
+
+  .shoora-nav-link {
+    @apply text-gray-700 hover:text-[#cc9c24] transition-colors duration-300;
+  }
+
+  .shoora-input {
+    @apply border border-gray-300 rounded-lg p-2.5 focus:outline-none focus:ring-2 focus:ring-[#cc9c24]/50;
+  }
+
+  .shoora-dropdown {
+    @apply bg-white border border-gray-300 rounded-lg shadow-lg z-50;
+  }
+
+  .chat-bubble {
+    @apply p-4 rounded-lg max-w-[80%] my-2;
+  }
+
+  .chat-bubble-user {
+    @apply bg-shoora-gray text-shoora-darkgray ml-auto;
+  }
+
+  .chat-bubble-assistant {
+    @apply bg-[#cc9c24]/10 text-shoora-darkgray mr-auto;
+  }
+
+  .typing-indicator::after {
+    content: '...';
+    animation: pulse 1.5s infinite;
+  }
+}
