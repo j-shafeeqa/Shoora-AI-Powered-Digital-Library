@@ -35,7 +35,7 @@ Shoora is an AI-powered legal intelligence platform built to unify the UAE’s f
 | **Backend**        | Python, FastAPI, MongoDB                                      |
 | **NLP Pipeline**   | spaCy (NER), custom OCR, Retrieval-Augmented Generation (RAG) |
 | **Data Ingestion** | BeautifulSoup, CourtListener API, UAE Open Data Portals       |
-| **Frontend**       | HTML/CSS/JS (Prototype), Figma for UI mockups                 |
+| **Frontend**       | HTML/CSS/JS/TypeScript (Prototype), Figma for UI mockups                 |
 | **AI Components**  | Prompt-based search ranking, named entity linking, legal citation mapping |
 | **Deployment**     | GitHub (demo), future-ready for containerization (Docker)     |
 
