@@ -2,9 +2,11 @@
 
 ![Shoora Banner](https://github.com/user-attachments/assets/3bbb098d-4a69-4f37-91af-27a818ff14c3)
 
+<p align="center">
+  <img src="https://img.shields.io/badge/WINNER-UAE%20Hackathon%202025%20(Pioneers%20Track)-purple?style=for-the-badge&logo=github" alt="UAE Hackathon Winner Badge" />
+</p>
 
-> **Winner – UAE Hackathon 2025 (Pioneers Track)**  
-> Building the future of legal research with AI.
+> 🏆 **Shoora** was crowned the **Winner of UAE Hackathon 2025 (Pioneers Track)** among hundreds of innovative submissions across the country. We’re redefining legal intelligence with AI—starting in the UAE, built for the world.
 
 Shoora is an AI-powered legal intelligence platform built to unify the UAE’s fragmented legal ecosystem. Designed for judicial trainees, legal professionals, and government institutions, Shoora brings together legislation, case law, and judicial training materials into a **central, searchable, and interactive legal library**.
 
