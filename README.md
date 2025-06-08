@@ -20,6 +20,14 @@ Shoora is an AI-powered legal intelligence platform built to unify the UAE’s f
 | **Sign Language Mode**     | Accessibility-first with sign translation pipeline (prototype stage)        |
 | **Conversational Assistant** | Legal Q&A bot built using spaCy, RAG, and rule-based logic                 |
 
+## 🚀 Here’s Shoora in action
+
+### 🔍 Smart Legal Search
+![Smart Search Demo](https://github.com/user-attachments/assets/e55bb133-785d-4b79-90fd-1404df6244a6)
+
+### ⚖️ AI-Powered Court Simulation
+![Court Simulation](https://github.com/user-attachments/assets/d80c4b28-c6d4-41af-97dc-fb745bc9590c)
+
 ## 🧠 Technical Stack
 
 | Layer               | Tools / Tech Used                                             |
